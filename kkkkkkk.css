@@ -1,0 +1,28 @@
+.blue{
+    background-color: aqua;
+    border:3px solid rgb(77, 143, 60);/*co je definováno dřív je na vrchu. např.několik borderů*/
+
+}
+
+table{
+   /* background-color: black;*/
+    border-spacing: 5px;/*tloušťka čáry*/
+    border-collapse: collapse;/*patří k td,th border*/
+
+}
+
+th, td{
+    background-color: white;
+    border:3px solid blue;
+    font-size: 2em;
+
+}
+tbody tr>th:nth-child(2n ){/*každý n-tý řádek   odd všechny liché*/
+background-color: blueviolet;/*po white => pod white*/
+}
+
+.první  {
+    background-color: darkolivegreen;
+}
+
+/**/

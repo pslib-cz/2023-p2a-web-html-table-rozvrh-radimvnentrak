@@ -1,0 +1,29 @@
+table{
+    /* background-color: black;*/
+     border-spacing: 5px;/*tloušťka čáry*/
+     border-collapse: collapse;/*patří k td,th border*/
+ 
+ }
+ 
+ th, td{
+     background-color: white;
+     border:3px solid rgb(0, 0, 0);
+     font-size: 2em;
+     width: 100px;
+ 
+ }
+ 
+ tr:nth-child(2n){
+    background-color: rgb(192, 192, 192);
+    border:3px solid rgb(0, 0, 0);
+
+ }
+ tbody tr>th:nth-child(2n ){/*každý n-tý řádek   odd všechny liché*/
+ background-color: blueviolet;/*po white => pod white*/
+ }
+ tbody th{
+    
+ }
+ 
+
+ 

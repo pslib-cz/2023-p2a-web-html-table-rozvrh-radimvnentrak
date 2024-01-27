@@ -2,28 +2,39 @@ table{
     /* background-color: black;*/
      border-spacing: 5px;/*tloušťka čáry*/
      border-collapse: collapse;/*patří k td,th border*/
+     max-width: 1250px;
+
  
  }
  
  th, td{
      background-color: white;
      border:3px solid rgb(0, 0, 0);
-     font-size: 2em;
+     font-size: 1.5em;
      width: 100px;
+
+ }
+ td{
+    padding-left: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
  
  }
- 
  tr:nth-child(2n){
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(145, 145, 145);
     border:3px solid rgb(0, 0, 0);
 
  }
  tbody tr>th:nth-child(2n ){/*každý n-tý řádek   odd všechny liché*/
  background-color: blueviolet;/*po white => pod white*/
  }
- tbody th{
-    
- }
- 
 
- 
+ .empty{
+    color: white;
+    font-size: 2em;
+ }
+.subtitle{
+font-size: small;
+}

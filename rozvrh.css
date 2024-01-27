@@ -38,3 +38,6 @@ table{
 .subtitle{
 font-size: small;
 }
+thead td {
+    font-size:large;
+}
